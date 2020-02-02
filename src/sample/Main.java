@@ -90,7 +90,7 @@ public class Main extends Application {
             System.out.println("Резюме успешно обновлено, следующее обновление произойдет прмерно через 4 часа");
         }
         catch (Exception e) {
-            System.out.println("Невозможно обновить резюме, повтор попытки будет прмерно через 4 часа");
+            System.out.println("Невозможно обновить резюме, повтор попытки будет прмерно через 4 часа!");
         }
         finally {
             driver.close();
